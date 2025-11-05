@@ -1,0 +1,16 @@
+{"tipo":"OFERTA_PUBLICADA","actorId":"martin@dpoo.com","tiempo":"2025-11-05T00:41:32.316336Z","id":"6b53fe3c-41a1-44db-b776-40be24686087","detalle":"Administrador creado y asignado: martin@dpoo.com"}
+{"tipo":"VENTA_COMPLETADA","actorId":"martin@dpoo.com","tiempo":"2025-11-05T00:41:32.346105Z","id":"1c18ce14-5c2a-4709-9701-44bb1bdd70ce","detalle":"Administrador aprobó venue: Auditorio ML"}
+{"tipo":"OFERTA_PUBLICADA","actorId":"isabella@dpoo.com","tiempo":"2025-11-05T00:41:32.380754Z","id":"f59d31df-784c-44c4-bee5-b2114c89d0a5","detalle":"Organizador creó evento: Musical Shakespeare"}
+{"tipo":"OFERTA_PUBLICADA","actorId":"isabella@dpoo.com","tiempo":"2025-11-05T00:41:32.411910Z","id":"cad78aed-b618-4491-89bb-2923ac83e891","detalle":"Localidad definida: General con 5 tiquetes"}
+{"tipo":"COMPRA_DIRECTA","actorId":"juanca@dpoo.com","tiempo":"2025-11-05T00:41:32.413955Z","id":"bc8c75e6-3c62-43f6-ba89-de127ee24556","detalle":"Cliente juanca@dpoo.com compró tiquete 1"}
+{"tipo":"VENTA_COMPLETADA","actorId":"juanca@dpoo.com","tiempo":"2025-11-05T00:41:32.433147Z","id":"a7ef7b3a-d858-447d-8c48-de08f112de64","detalle":"Cliente juanca@dpoo.com transfirió tiquete 1 a hector@dpoo.com"}
+{"tipo":"OFERTA_PUBLICADA","actorId":"martin@dpoo.com","tiempo":"2025-11-05T00:41:32.433636Z","id":"7dc53c29-a4cf-4d07-982d-dad69b1c70ee","detalle":"Administrador fijó cargos para tipo musical."}
+{"tipo":"OFERTA_CANCELADA","actorId":"martin@dpoo.com","tiempo":"2025-11-05T00:41:32.434051Z","id":"b5a3564c-447c-4fc4-a922-7fda7ae813d7","detalle":"Administrador canceló evento: Musical Shakespeare"}
+{"tipo":"OFERTA_PUBLICADA","actorId":"pepito@dpoo.com","tiempo":"2025-11-05T00:41:32.440693Z","id":"b6bb164f-818d-4ff5-a721-5acd81d0e591","detalle":"Administrador creado: pepito@dpoo.com"}
+{"tipo":"OFERTA_PUBLICADA","actorId":"perensejo@dpoo.com","tiempo":"2025-11-05T00:41:32.441377Z","id":"19ffd3f7-b88f-49a5-9407-1afbd898d2af","detalle":"Intento de crear evento fallido en venue no aprobado."}
+{"tipo":"OFERTA_PUBLICADA","actorId":"perensejo@dpoo.com","tiempo":"2025-11-05T00:41:32.441687Z","id":"e1216ca6-c9c1-4aa7-9ee3-0c1010a2f269","detalle":"Evento aprobado: Concierto correcto"}
+{"tipo":"OFERTA_PUBLICADA","actorId":"batman@dpoo.com","tiempo":"2025-11-05T00:41:32.442128Z","id":"32dd4af4-7947-4c36-81a5-cf1678a5e6c0","detalle":"Cliente creado con saldo inicial 50"}
+{"tipo":"COMPRA_DIRECTA","actorId":"batman@dpoo.com","tiempo":"2025-11-05T00:41:32.445052Z","id":"640ce286-ef74-458c-97fc-c771bfb6880d","detalle":"Cliente batman@dpoo.com intentó comprar con saldo insuficiente."}
+{"tipo":"COMPRA_DIRECTA","actorId":"batman@dpoo.com","tiempo":"2025-11-05T00:41:32.446866Z","id":"328d26ab-873e-4d87-b13a-2791b85c5347","detalle":"Cliente batman@dpoo.com compró tiquete 6"}
+{"tipo":"CONTRAOFERTA_RECHAZADA","actorId":"batman@dpoo.com","tiempo":"2025-11-05T00:41:32.449617Z","id":"7a4db48c-8350-4a0c-8581-55caa5cfbb36","detalle":"Cliente batman@dpoo.com intentó transferir con clave incorrecta."}
+{"tipo":"VENTA_COMPLETADA","actorId":"batman@dpoo.com","tiempo":"2025-11-05T00:41:32.456853Z","id":"fd90be9a-ea06-489c-985f-4c7d316fde2a","detalle":"Cliente batman@dpoo.com transfirió tiquete a robin@dpoo.com"}

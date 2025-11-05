@@ -3,11 +3,26 @@ package logica;
 import java.util.ArrayList;
 import java.util.List;
 
+import log.AdminLog;
+import log.PersistenciaLogJson;
+
 public class Sistema {
+
     private static List<Usuario> usuarios = new ArrayList<>();
     private static List<Evento> eventos = new ArrayList<>();
     private static List<Venue> venues = new ArrayList<>();
     private static Administrador administrador;
+
+    private final AdminLog log;
+
+    public Sistema() {
+        this.log = new AdminLog(new PersistenciaLogJson("data/log.jsonl"));
+    }
+
+
+    public AdminLog getAudit() {
+        return log;
+    }
 
     public static void setAdministrador(Administrador admin) {
         administrador = admin;
@@ -47,3 +62,4 @@ public class Sistema {
         return venues;
     }
 }
+

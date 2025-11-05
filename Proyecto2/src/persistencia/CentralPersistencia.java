@@ -1,17 +1,27 @@
 package persistencia;
 
 public class CentralPersistencia {
-    public IPersistenciaUsuarios getPersistenciaUsuarios(String tipo) {
-        if (tipo.equalsIgnoreCase("TXT")) {
-            return new PersistenciaUsuariosTxt();
-        }
-        return null;
+
+    private final IPersistenciaUsuarios persistenciaUsuarios;
+    private final IPersistenciaEventos persistenciaEventos;
+    private final IPersistenciaVenues persistenciaVenues;
+
+    public CentralPersistencia() {
+        this.persistenciaUsuarios = new PersistenciaUsuariosJson();
+        this.persistenciaEventos = new PersistenciaEventosJson();
+        this.persistenciaVenues = new PersistenciaVenuesJson();
     }
 
-    public IPersistenciaEventos getPersistenciaEventos(String tipo) {
-        if (tipo.equalsIgnoreCase("TXT")) {
-            return new PersistenciaEventosTxt();
-        }
-        return null;
+    public IPersistenciaUsuarios getPersistenciaUsuarios() {
+        return persistenciaUsuarios;
+    }
+
+    public IPersistenciaEventos getPersistenciaEventos() {
+        return persistenciaEventos;
+    }
+
+    public IPersistenciaVenues getPersistenciaVenues() {
+        return persistenciaVenues;
     }
 }
+
