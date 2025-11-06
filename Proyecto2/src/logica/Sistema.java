@@ -5,6 +5,7 @@ import java.util.List;
 
 import log.AdminLog;
 import log.PersistenciaLogJson;
+import persistencia.CentralPersistencia;
 
 public class Sistema {
 
@@ -20,7 +21,7 @@ public class Sistema {
     }
 
 
-    public AdminLog getAudit() {
+    public AdminLog getLog() {
         return log;
     }
 
@@ -61,5 +62,6 @@ public class Sistema {
     public static List<Venue> getVenues() {
         return venues;
     }
+    
 }
 
